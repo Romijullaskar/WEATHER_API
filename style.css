@@ -1,0 +1,195 @@
+body{
+    background-image: url(https://source.unsplash.com/1650x900/?nature,water), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#x{
+    visibility: hidden;
+}
+/* body {
+    background-image: url(https://picsum.photos/id/1080/6858/4574), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+} */
+#moc{
+    position: absolute;
+}
+#bdy {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mod {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mod .container{
+    height: 20vh;
+}
+#mod .container input{
+    margin: 15px;
+}
+.container {
+    box-sizing: border-box;
+    /* border: 5px solid rgba(95, 90, 90, 0.404); */
+    backdrop-filter: contrast(130%) brightness(120%) blur(2px);
+    background:
+        radial-gradient(ellipse at 16.7% -10%,
+            hsla(0, 0%, 100%, 0.44) 24%,
+            hsla(0, 0%, 100%, 0.4) 25%,
+            hsla(0, 0%, 100%, 0.2) 45%,
+            hsla(0, 0%, 100%, 0.1));
+    background-size: 300% 100%;
+    border-radius: 10px;
+    box-shadow:
+        0 2px 1px hsla(0, 0%, 100%, 0.5) inset,
+        0 -2px 1px hsla(250, 70%, 5%, 0.3) inset,
+        0 -2px 6px hsla(0, 0%, 100%, 0.25);
+
+    border-radius: 10px;
+    width: 22vw;
+    height: 49vh;
+    padding: 10px;
+    background-color: rgba(0, 236, 236, 0.185);
+    backdrop-filter: blur(20px);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    color: rgb(157, 255, 0);
+    text-shadow:1px -2px 3px rgb(243 1 46);
+}
+.ch {
+    animation: kyle 8s infinite;
+    border-radius: 10px;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 5px;
+    height: 19px;
+    width: auto;
+    background: radial-gradient(ellipse at 16.7% -10%,
+    hsla(0, 0%, 100%, 0.44) 24%,
+    hsla(0, 0%, 100%, 0.4) 25%,
+    hsla(0, 0%, 100%, 0.2) 45%,
+    hsla(0, 0%, 100%, 0.1));
+}
+@keyframes kyle {
+    0%{border-color: aqua;}
+    25%{border-color: rgb(217, 255, 0);}
+    75%{border-color: rgb(247, 0, 255);}
+    100%{border-color: rgb(0, 255, 13);}
+}
+#button{
+    text-align: center;
+    margin-left: 2vw;
+    border-radius: 10px;
+    background-color: #3AB0FF;
+    border: none;
+    padding: 5px;
+    width: 28%;
+    color: white;
+    box-shadow: -2px -2px 6px 2px red;
+}
+#button1{
+    text-align: center;
+    margin-left: 2vw;
+    border-radius: 10px;
+    background-color: #3AB0FF;
+    border: none;
+    padding: 5px;
+    width: 28%;
+    color: white;
+    box-shadow: -2px -2px 6px 2px red;
+}
+#button2{
+    text-align: center;
+    margin-left: 2vw;
+    border-radius: 10px;
+    background-color: #3AB0FF;
+    border: none;
+    padding: 5px;
+    width: 28%;
+    color: white;
+    box-shadow: -2px -2px 6px 2px red;
+}
+#p{
+    display: flex;
+    width: 126%;
+}
+abbr{
+    text-decoration: none;
+}
+input{
+    text-align: end;
+}
+#com{
+    width: 286px;
+    height: 99px;
+    resize: none;
+    cursor: default;
+    text-align: center;
+}
+#mod{
+    position: absolute;
+}
+#bdy{
+    visibility: hidden;
+}
+@media only screen and (max-width: 600px) {
+    *{
+        overflow: hidden;
+    }
+    #x{
+        visibility: visible;
+    }
+    body{
+        background-image: url(https://source.unsplash.com/600x900/?nature,tree), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .container{
+        width: 70vw;
+    }
+    #mod{
+        width: 94%;
+        height: 77vh;
+    }
+    #bdy{
+        width: 96%;
+    }
+    #com{
+        width: 236px;
+    }
+    #p{
+        width: 158%;
+    }
+    #button1{
+        box-shadow: none;
+    }
+    #button2{
+        box-shadow: none;
+    }
+    #button{
+        box-shadow: none;
+    }
+    label{
+        margin-top: 10px;
+    }
+}
